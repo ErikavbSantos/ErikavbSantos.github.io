@@ -35,7 +35,7 @@ body {
     flex-direction: column;
     margin: 2% 2% 2% 6%;
     width: 800px;
-    height: 400px;
+    height: 450px;
 }
 
 #output-area {
@@ -52,7 +52,7 @@ body {
 }
 
 .buttons-area {
-    padding: 10px 10px 10px 100px;
+    padding: 10px 10px 10px 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -90,9 +90,11 @@ body {
     border: none;
     font-size: 24px;
     width: 800px;
-    height: 400px;
+    height: 340px;
     resize: none;
     background: none;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 #input-texto::placeholder {
@@ -146,7 +148,6 @@ body {
     display: flex;
     flex-direction: row;
 }
-
 .mensagem img {  
     width: 20px;
     height: 20px;
@@ -157,7 +158,6 @@ body {
     font-size: 18px;
     color: #06DCA0;
 }
-
 .buttons {
     display: flex;
     flex-direction: row;
@@ -231,7 +231,6 @@ body {
     padding: 0;
     margin: 0;
 }
-
 .icons {
     display: flex;
     justify-content: center;
