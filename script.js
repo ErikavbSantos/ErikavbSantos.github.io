@@ -20,7 +20,7 @@ function criptografar() {
 function descriptografar() {
     var str = textInput.value;
 
-    var texto = str.toUpperCase();
+    var texto = str.toLowerCase();
     console.log(texto);
 
     var resultDescripto = texto
