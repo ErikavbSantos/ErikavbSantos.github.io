@@ -94,7 +94,7 @@ body {
     resize: none;
     background: none;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 #input-texto::placeholder {
