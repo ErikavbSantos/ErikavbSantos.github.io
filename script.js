@@ -12,7 +12,30 @@ function criptografar() {
     .replace(/i/g, "imes")
     .replace(/a/g, "ai")
     .replace(/o/g, "ober")
-    .replace(/u/g, "ufat");
+    .replace(/u/g, "ufat")
+    
+    .replace(/á/g, "ai")
+    .replace(/à/g, "ai")
+    .replace(/â/g, "ai")
+    .replace(/ã/g, "ai")
+    
+    .replace(/é/g, "enter")
+    .replace(/è/g, "enter")
+    .replace(/ê/g, "enter")
+    
+    .replace(/í/g, "imes")
+    .replace(/ï/g, "imes")
+    
+    .replace(/ó/g, "ober")
+    .replace(/ô/g, "ober")
+    .replace(/õ/g, "ober")
+    .replace(/ö/g, "ober")
+    
+    .replace(/ú/g, "ufat")
+    
+    .replace(/çñ/g, "c")
+    
+    .replace(/ñ/g, "n");
     
     document.getElementById('output-area').innerHTML = '<textarea readonly id="resultado">' + resultCripto + '</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>'
 }
