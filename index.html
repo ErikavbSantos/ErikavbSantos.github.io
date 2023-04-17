@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Decodificador de texto usando HTML, CSS e JavaScript. Feito para um Challenge para o programa ONE(Oracle Next Education).">
+
+    <title>Codificador e Decodificador de Texto</title>
+
+    <link rel= "stylesheet" href="style.css">
+    <link rel="icon" href="assets/invaderGreen.png" type="favicon">
+
+</head>
+
+<body>
+
+    <div class="page">
+        <img class="spaceInvader" src= "assets/invaderGreen.png" alt="SpaceInvader">
+        <div class="input-output-area">
+        <!-- area com o campo para inserir o texto -->
+            <div class="input-area">
+                <textarea id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+            </div>
+        <!-- area com o campo do texto criptografado/descriptografado -->
+            <div id="output-area">
+                <img src="assets/invadersGreen.png" alt="garota">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <span>Digite um texto que você deseja<br>
+                criptografar ou descriptografar.</span>
+            </div>
+        </div>
+        <!-- area dos botões-->
+        <div class="buttons-area">
+            <div class="mensagem">
+                <img src="assets/exclamationGreen.png" alt="exclamação">
+                <p>Não há distinção entre letras minusculas ou maiúsculas</p>
+            </div>
+            <div class="buttons">
+                <button onclick="criptografar()" type="button" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" type="button" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>
+        <!-- rodapé -->
+        <footer class="rodape">
+            <p>Minhas redes</p>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/erikavbsantos/"><img class="gitIn" src="assets/logo-linkedin.svg"></a>
+                <a href="https://github.com/ErikavbSantos"><img class="gitIn" src="assets/logo-github.svg"></a>
+                <a href="mailto:erikavbscontato@gmail.com"><img class="email" src="assets/mail.svg"></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
