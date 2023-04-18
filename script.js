@@ -24,16 +24,19 @@ function criptografar() {
     .replace(/ê/g, "enter")
     
     .replace(/í/g, "imes")
+    .replace(/ì/g, "imes")
     .replace(/ï/g, "imes")
     
     .replace(/ó/g, "ober")
+    .replace(/ò/g, "ober")
     .replace(/ô/g, "ober")
     .replace(/õ/g, "ober")
     .replace(/ö/g, "ober")
     
     .replace(/ú/g, "ufat")
+    .replace(/ù/g, "ufat")
     
-    .replace(/çñ/g, "c")
+    .replace(/ç/g, "c")
     
     .replace(/ñ/g, "n");
     
