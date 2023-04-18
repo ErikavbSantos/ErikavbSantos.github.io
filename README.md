@@ -1,7 +1,7 @@
 # Codificador de Texto - Challenge ONE
 
 <div align='center'>
-<img alt="Badge do desafio" width="200" src="assets/badge_Alura.png">
+<img alt="Badge do desafio" width="200" height="200" src="assets/badge_Alura.png">
 
 [Clique aqui para ver o codificador](https://erikavbsantos.github.io)
 </div>
